@@ -1,0 +1,33 @@
+{
+  "name": "passport-telegram",
+  "version": "1.0.0",
+  "description": "Simple passport strategy for Telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccet-projects/passport-telegram-example.git"
+  },
+  "keywords": [
+    "passport",
+    "telegram"
+  ],
+  "author": "Anna Agte <matiasrustagte@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccet-projects/passport-telegram-example/issues"
+  },
+  "homepage": "https://github.com/ccet-projects/passport-telegram-example#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "passport": "^0.5.2",
+    "passport-telegram": "github:ccet-projects/passport-telegram"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
