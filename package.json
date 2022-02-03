@@ -25,7 +25,7 @@
     "body-parser": "^1.19.1",
     "express": "^4.17.2",
     "passport": "^0.5.2",
-    "passport-telegram": "github:ccet-projects/passport-telegram"
+    "passport-telegram": "github:ccet-projects/passport-telegram#v1"
   },
   "engines": {
     "node": ">=16"
