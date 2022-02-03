@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/ccet-projects/passport-telegram-example#readme",
   "dependencies": {
-    "body-parser": "^1.19.1",
     "express": "^4.17.2",
     "passport": "^0.5.2",
     "passport-telegram": "github:ccet-projects/passport-telegram#v1"

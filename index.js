@@ -1,5 +1,4 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const passport = require('passport');
 const TelegramStrategy = require('passport-telegram').Strategy;
 
@@ -46,7 +45,6 @@ app.get('/', (req, res) => {
   `);
 });
 
-app.use(bodyParser.urlencoded({ extended: true }));
 app.use(passport.initialize());
 
 app.use('/login', passport.authenticate('telegram'), (req, res) => {
